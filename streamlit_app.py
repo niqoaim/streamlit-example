@@ -5,7 +5,7 @@ import random
 if st.button('Randomise'):
     n = random.randrange(1,10)
 else:
-    break
+    "Click to reset"
 with st.echo(code_location='below'):
 
      n = random.randrange(1,10)
