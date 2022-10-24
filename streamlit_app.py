@@ -21,6 +21,6 @@ with st.echo(code_location='below'):
             st.write("Too high!")
             break
          else:
-            break
-     st.write("Congrats you guessed it!")
+            st.write("Congrats you guessed it!")
+     
 st.write(n)
