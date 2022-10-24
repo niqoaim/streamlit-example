@@ -8,7 +8,7 @@ with st.echo(code_location='below'):
     
     n = random.randrange(1,10)
 
-    while n!= guess = st.slider("Guess a Number", 0, 10, 0):
+    while n!= st.slider("Guess a Number", 0, 10, 0):
         if guess < n:
             st.write("Too low")
             break
