@@ -5,6 +5,7 @@ import random
 if st.button('Randomise'):
     n = random.randrange(1,10)
 else:
+    "click me"
     
 with st.echo(code_location='below'):
 
