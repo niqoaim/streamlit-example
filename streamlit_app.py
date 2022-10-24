@@ -9,7 +9,7 @@ else:
     
 with st.echo(code_location='below'):
      guess = st.number_input("Guess 1", min_value=0, max_value=10, value=0, step=1, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-      while n!= guess:
+     while n!= guess:
           if guess < n:
              st.write("Too low")
              break
