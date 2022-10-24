@@ -15,9 +15,9 @@ with st.echo(code_location='below'):
          if guess < n:
             st.write("Too low")
             break
-        elif guess > n:
+         elif guess > n:
             st.write("Too high!")
             break
-        else:
+         else:
             break
     st.write(n)
