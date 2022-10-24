@@ -11,8 +11,10 @@ with st.echo(code_location='below'):
     while n!= guess:
         if guess < n:
             st.write("Too low")
+            break
         elif guess > n:
             st.write("Too high!")
+            break
         else:
             break
         
