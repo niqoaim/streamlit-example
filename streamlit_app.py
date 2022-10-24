@@ -1,26 +1,11 @@
-import math
 import streamlit as st
-import random
 
-n = 10
+list1 = [12, 16, 20, 20, 12, 30, 25, 23, 24, 20]
 
-if st.button('Randomise'):
-    n = random.randrange(1,10)
+st.write(list1)
+if st.button("Mean"):
+    mean = sum(list1)/len(list1)
+    st.write(mean)
 else:
-    "click the button to start"
+    "Press to calcualate the Mean
     
-with st.echo(code_location='below'):
-
-     guess = st.number_input("Take a guess", min_value=0, max_value=10, value=0, step=1, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-
-     while n!= guess:
-         if guess < n:
-            st.write("Too low")
-            guess = st.number_input("Take a guess", min_value=0, max_value=10, value=0, step=1, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-         elif guess > n:
-            st.write("Too high!")
-            guess = st.number_input("Take a guess", min_value=0, max_value=10, value=0, step=1, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
-         else:
-            st.write("Congrats you guessed it!")
-     
-st.write(n)
