@@ -16,5 +16,6 @@ with st.echo(code_location='below'):
             print("Too high!")
             guess = int(input("Enter number again: "))
         else:
-        break
+            break
+        
 print("you guessed it right!!")
