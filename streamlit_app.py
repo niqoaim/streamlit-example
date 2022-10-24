@@ -17,4 +17,4 @@ with st.echo(code_location='below'):
             break
         else:
             break
-    st.write("You guessed it!")
+    st.write(n)
