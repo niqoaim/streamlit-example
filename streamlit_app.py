@@ -7,7 +7,7 @@ import random
 with st.echo(code_location='below'):
     
     n = random.randrange(1,10)
-    guess = st.number_input("Take a guess", min_range= 1, max_range= 10, step= 1)
+    int(guess = st.number_input("Take a guess"))
 
     while n!= guess:
         if guess < n:
