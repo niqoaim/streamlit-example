@@ -4,6 +4,7 @@ import streamlit as st
 import random
 
 n = random.randrange(1,10)
+
 with st.echo(code_location='below'):
     guess = st.slider("Guess a Number", 1, 10, 5)
 
