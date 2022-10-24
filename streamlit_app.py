@@ -7,5 +7,5 @@ if st.button("Mean"):
     mean = sum(list1)/len(list1)
     st.write(mean)
 else:
-    "Press to calcualate the Mean
+    "Press to calcualate the Mean"
     
