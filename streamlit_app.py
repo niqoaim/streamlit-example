@@ -1,6 +1,7 @@
 import streamlit as st
 
 list1 = [12, 16, 20, 20, 12, 30, 25, 23, 24, 20]
+frequency = {}
 
 st.write(list1)
 if st.button("Mean"):
@@ -19,4 +20,17 @@ if st.button("Median"):
         median = list1[len(list1)//2]
     st.write(median)
 else:
-    "press to calulate the median"
+    "Press to calculate the median"
+
+if st.button("Mode"):
+    for i in list1:
+        frequency.setdefault(i, 0)
+        frequency[i]+=1
+
+    frequent = max(frequency.values())
+    for i, j in frequency.items():
+        if j == frequent:
+            mode = i
+    st.write(mode)
+else:
+    "Press to calculate mode"
