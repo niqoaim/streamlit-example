@@ -16,10 +16,10 @@ with st.echo(code_location='below'):
      while n!= guess:
          if guess < n:
             st.write("Too low")
-            break
+            guess = st.number_input("Take a guess", min_value=0, max_value=10, value=0, step=1, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
          elif guess > n:
             st.write("Too high!")
-            break
+            guess = st.number_input("Take a guess", min_value=0, max_value=10, value=0, step=1, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
          else:
             st.write("Congrats you guessed it!")
      
