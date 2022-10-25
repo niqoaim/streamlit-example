@@ -1,6 +1,6 @@
 import streamlit as st
 
-list1 = [12, 16, 20, 20, 12, 30, 25, 23, 24, 20]
+list1 = [20, 40, 60, 80, 60, 40, 20, 20, 80, 20]
 frequency = {}
 
 st.write(list1)
