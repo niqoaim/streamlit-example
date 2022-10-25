@@ -3,6 +3,7 @@ import streamlit as st
 list1 = [20, 40, 60, 80, 60, 40, 20, 20, 80, 20]
 frequency = {}
 
+"List of numbers"
 st.write(list1)
 with st.echo(code_location="below"):
     if st.button("Mean"):
