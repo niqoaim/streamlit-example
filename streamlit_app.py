@@ -9,7 +9,7 @@ with st.echo(code_location="below"):
         mean = sum(list1)/len(list1)
         st.write(mean)
     else:
-        "Press to calcualate the Mean"
+        "Press to calculate the Mean"
 
     
     if st.button("Median"):
