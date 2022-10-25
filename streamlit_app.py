@@ -22,7 +22,7 @@ with st.echo(code_location="below"):
             median = list1[len(list1)//2]
         st.write(median)
     else:
-        "Press to calculate the median"
+        "Press to calculate the Median"
 
     if st.button("Mode"):
         for i in list1:
@@ -35,4 +35,4 @@ with st.echo(code_location="below"):
                 mode = i
         st.write(mode)
     else:
-        "Press to calculate mode"
+        "Press to calculate Mode"
