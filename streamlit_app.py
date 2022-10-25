@@ -1,6 +1,6 @@
 import streamlit as st
 
-list1 = [20, 40, 60, 80, 60, 40, 20, 20, 80, 20]
+list1 = [20, 30, 40, 50, 60, 20, 70 ,10, 90, 20]
 frequency = {}
 
 "List of numbers"
