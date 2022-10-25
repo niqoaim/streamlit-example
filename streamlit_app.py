@@ -36,3 +36,4 @@ with st.echo(code_location="below"):
         st.write(mode)
     else:
         "Press to calculate Mode"
+    "And here's how its done!"
