@@ -4,7 +4,7 @@ list1 = [12, 16, 20, 20, 12, 30, 25, 23, 24, 20]
 frequency = {}
 
 st.write(list1)
-with st.echo():
+with st.echo(below):
     if st.button("Mean"):
         mean = sum(list1)/len(list1)
         st.write(mean)
